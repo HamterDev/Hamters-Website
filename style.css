@@ -8,8 +8,8 @@ body {
   margin: 0; /* Removes default body margin */
   font-family: Arial, sans-serif; /* Sets a default font family */
   line-height: 1.6; /* Sets a default line height for readability */
-  color: #333; /* Sets a default text color */
-  background-color: #f4f4f4; /* Sets a light background color */
+  color: #ffffff; /* Sets a default text color */
+  background-color: #000000; /* Sets a light background color */
 }
 
 /* Headings */
