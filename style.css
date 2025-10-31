@@ -1,0 +1,61 @@
+/* Universal Box-Sizing */
+*, *::before, *::after {
+  box-sizing: border-box; /* Ensures padding and border are included in an element's total width and height */
+}
+
+/* Body Styles */
+body {
+  margin: 0; /* Removes default body margin */
+  font-family: Arial, sans-serif; /* Sets a default font family */
+  line-height: 1.6; /* Sets a default line height for readability */
+  color: #333; /* Sets a default text color */
+  background-color: #f4f4f4; /* Sets a light background color */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0; /* Removes default top margin for headings */
+  margin-bottom: 0.5em; /* Adds a small bottom margin for spacing */
+  font-weight: bold;
+  color: #222;
+}
+
+/* Paragraphs */
+p {
+  margin-top: 0;
+  margin-bottom: 1em; /* Adds a bottom margin for paragraph separation */
+}
+
+/* Links */
+a {
+  color: #007bff; /* Sets a default link color */
+  text-decoration: none; /* Removes underline from links */
+}
+
+a:hover {
+  text-decoration: underline; /* Adds underline on hover for visual feedback */
+}
+
+/* Utility Classes (Examples) */
+.container {
+  max-width: 960px; /* Limits content width for better readability on large screens */
+  margin: 0 auto; /* Centers the container horizontally */
+  padding: 0 15px; /* Adds horizontal padding inside the container */
+}
+
+.text-center {
+  text-align: center; /* Centers text within an element */
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both; /* Clears floats for parent elements */
+}
+
+/* Responsive Considerations (Basic Example) */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px; /* Adjusts padding for smaller screens */
+  }
+}
